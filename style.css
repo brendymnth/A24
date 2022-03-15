@@ -1,0 +1,317 @@
+@font-face {
+  font-family: 'poppins-regular';
+  src: url('./assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'poppins-regular';
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/*---------- Start CSS Bagian 1 ---------*/
+/*Start header */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+  position: relative;
+}
+
+.header-left P{
+  position: absolute;
+  font-size: 20px;
+  top: 7px;
+  bottom: 20px;
+  left: 150px;
+  color: black;
+}
+
+.text-logo {
+  padding-bottom: 50px;
+  padding-left: 360px;
+}
+.header-right {
+	padding-top: 10px;
+  float:right;
+}
+
+
+.signup {
+  color:black;
+  padding-right: 30px
+}
+
+.login {
+  background-color: #2A50C1;
+  margin-right: 30px;
+}
+
+
+.btn {
+  padding: 12px 30px;
+  color: white;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+/* start wrapper */
+
+.top-wrapper {
+  padding: 130px 0 80px 0;
+  background-color: #F7F5FD;
+  background-size: cover;
+  color: black;
+  
+}
+
+.container-1 {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  
+  font-size: 80px;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 50px;
+}
+
+.top-wrapper p {
+  position: static;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 50px;
+  color: #2D2D2D;
+}
+
+.box {
+  width: 400px;
+}
+
+.btn-wrapper {
+  padding-top: 50px;
+  padding-left: 50px;
+
+
+}
+
+.btn-getstart {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 10px;
+  color: black;
+  background-color: #DFBF70;
+
+}
+
+.wrapper-right{
+  float: right;
+  width: 25%;
+}
+.gambar {
+  position: absolute;
+  padding-top: 100px;
+  padding-right: 90px;
+  width: 600px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 10px;
+  
+}
+
+/*---------- End CSS Bagian 1 -----------*/
+
+.container{
+  width: 100%;
+}
+
+.features{
+  
+  text-align: center;
+  padding: 110px 90px 110px 90px;
+}
+
+.clear{
+  clear: left;
+}
+
+.feature{
+  float: left;
+  width: 25%;
+}
+
+.feature-icon{
+  position: relative;
+}
+
+.desc-feature{
+  font-weight: 400;
+  font-size: 18px;
+  display: inline-block;
+  font-style: normal;
+  color: #2D2D2D;
+  opacity: 0.5;
+  width: 80%;
+}
+
+.user-feedback{
+  height: 500px;
+  padding: 110px 90px 110px 90px;
+  background-color: #ECE7FB;
+}
+
+.user-image img{
+  float: left;
+  width: 25%;
+}
+
+.user-quote{
+  margin-left: 400px;
+}
+
+.user-backtick{
+  width: 25%;
+}
+
+.txt-quote{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  align-content: center;
+  width: 75%;
+  margin-top: 30px;
+}
+
+.user-name{
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.5;
+  margin-top: 60px;
+}
+
+/*Start Section Video & Logos */
+.video-wrapper {
+  background-color: #F2FAF8;
+  ;
+  padding: 70px 0px 70px 0px;
+  text-align: center;
+}
+
+video {
+  width: 760px;
+  height: 460px;
+}
+
+.logos-list {
+  background-color: white;
+  height: 200px;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.logos-list li {
+  float: left;
+  list-style: none;
+}
+
+.nestle {
+  width: 133.5px;
+  height: 35px;
+  margin-left: 80px;
+}
+
+.apple {
+  width: 29.48px;
+  height: 35px;
+  margin-left: 70px;
+}
+
+.beco {
+  width: 60.09px;
+  height: 40px;
+  margin-left: 70px;
+}
+
+.amazon {
+  width: 115.58px;
+  height: 35px;
+  margin-left: 70px;
+}
+
+.google {
+  width: 106.32px;
+  height: 35px;
+  margin-left: 70px;
+}
+
+.walmart {
+  width: 140.26px;
+  height: 35px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+/*End Section Video and Logos*/
+
+footer{
+  padding: 40px 50px 40px 50px;
+}
+
+.logo-footer{
+  float: left;
+  width: 40px;
+}
+
+.footer-store{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  margin-left: 60px;
+}
+
+.social-media{
+  text-align: end;
+}
+
+.social-media li{
+  list-style: none;
+  float: right;
+  margin-right: 18px;
+}
+
+.social-icon{
+  width:30px
+}

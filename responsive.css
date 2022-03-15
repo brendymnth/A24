@@ -1,0 +1,21 @@
+@media all and (max-width: 670px) {
+    .feature{
+      width: 100%;
+    }
+  
+    .user-image img{
+      clear: left;
+      width: 100%;
+    }
+  
+    .txt-quote{
+      font-weight: 600;
+      font-size: 14px;
+      margin-top: 30px;
+      width: 25%;
+    }
+  
+    .user-backtick{
+      width: 100%
+    }
+  }
