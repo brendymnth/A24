@@ -284,8 +284,25 @@ video {
 }
 /*End Section Video and Logos*/
 
+.cta {
+	height: 600px;
+	padding: 50px;
+}
+
 .image-frame {
-	width: 100%;
+	width: 650px;
+	height: 550px;
+}
+
+.primary {
+	width: 300px;
+	float: left;
+	margin: 150px 50px;
+}
+
+.img-frame {
+	width: 50%;
+	float: right;
 }
 
 footer{
